@@ -15,12 +15,43 @@
       <a href="index.html">Home</a>
     </nav>
   </header>
+  
   <section>
     <p>Our professional drain cleaning services keep your plumbing flowing smoothly by clearing blockages and preventing future clogs.</p>
-    <!-- Optionally add images, before-and-after examples, or customer reviews -->
   </section>
+  
+  <!-- Gallery Section -->
+  <section class="service-gallery">
+    <div class="gallery-item">
+      <img src="https://github.com/brian123123-prog/My-Davao-Plumbing-Services/blob/main/images/drain1.jpg.jpeg?raw=true" alt="Drain Cleaning Example 1" width="400" height="300">
+      <p>Clearing stubborn blockages with advanced tools.</p>
+    </div>
+    <div class="gallery-item">
+      <img src="https://github.com/brian123123-prog/My-Davao-Plumbing-Services/blob/main/images/drain2.jpg.jpeg?raw=true" alt="Drain Cleaning Example 2" width="400" height="300">
+      <p>Maintaining smooth drainage to prevent future clogs.</p>
+    </div>
+  </section>
+  
+  <!-- Lead Form Section -->
+  <section class="lead-form">
+    <h2>Request a Free Quote</h2>
+    <form id="leadForm" action="your-processing-script" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Tell us about your drain cleaning needs..." rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  
   <footer>
     <p>© 2024 Davao City Plumbing Services. All rights reserved.</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
