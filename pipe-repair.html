@@ -15,12 +15,43 @@
       <a href="index.html">Home</a>
     </nav>
   </header>
+  
   <section>
     <p>Our experienced team offers reliable pipe repair and replacement services, ensuring the durability and safety of your plumbing system.</p>
-    <!-- Optionally include photos, repair process details, or case studies -->
   </section>
+  
+  <!-- Gallery Section -->
+  <section class="service-gallery">
+    <div class="gallery-item">
+      <img src="https://github.com/brian123123-prog/My-Davao-Plumbing-Services/blob/main/images/pipe1.jpg.jpeg?raw=true" alt="Pipe Repair Example 1" width="400" height="300">
+      <p>Skilled technicians repairing damaged pipes efficiently.</p>
+    </div>
+    <div class="gallery-item">
+      <img src="https://github.com/brian123123-prog/My-Davao-Plumbing-Services/blob/main/images/pipe2.jpg.jpeg?raw=true" alt="Pipe Replacement Example 2" width="400" height="300">
+      <p>Replacing old pipes with high-quality, durable materials.</p>
+    </div>
+  </section>
+  
+  <!-- Lead Form Section -->
+  <section class="lead-form">
+    <h2>Request a Free Quote</h2>
+    <form id="leadForm" action="your-processing-script" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Tell us about your pipe repair/replacement needs..." rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  
   <footer>
     <p>© 2024 Davao City Plumbing Services. All rights reserved.</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
